@@ -1,0 +1,14 @@
+{
+    "users": [
+        {
+            "telephone": "939752577",
+            "password": "admin",
+            "id": "1" 
+        },
+        {
+            "telephone": "935268849",
+            "password": "user",
+            "id": "2" 
+        }
+    ]
+}

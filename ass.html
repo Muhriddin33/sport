@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./public/style/style.css" />
+    <link rel="icon" href="./public/svg/logotype.svg" />
+    <title>Северяночка</title>
+  </head>
+
+  <body>
+    <!-- <nav>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-2 col-md-1 logo-div">
+            <a href="#" class="logo1"
+              ><img src="./public/svg/logo.svg" alt=""
+            /></a>
+            <a href="#" class="logo2"
+              ><img src="./public/svg/logotype.svg" alt="" class="logoImg"
+            /></a>
+          </div>
+          <div class="col-xl-5 col-md-4 d-flex">
+            <div class="dropdown">
+              <button
+                class="btn btn-success d-flex align-items-center"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  width="24px"
+                  height="24px"
+                  src="./public/svg/btn.svg"
+                  alt=""
+                  style="margin-right: 10px"
+                />
+                <p>Каталог</p>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="search">
+              <input
+                type="text"
+                placeholder="Найти товар"
+                class="search-inp"
+              /><img class="loopa" src="./public/svg/search.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-3 nav d-flex justify-content-evenly">
+            <a href="#" class="shape-nav">
+              <img
+                width="21px"
+                height="21px"
+                src="./public/svg/saved.svg"
+                alt=""
+              />
+              <p>Избранное</p>
+            </a>
+            <a href="#" class="shape-nav">
+              <img
+                width="21px"
+                height="21px"
+                src="./public/svg/flame.svg"
+                alt=""
+              />
+              <p>Заказы</p>
+            </a>
+            <a href="#" class="shape-nav">
+              <img
+                width="21px"
+                height="21px"
+                src="./public/svg/basket.svg"
+                alt=""
+              />
+              <p>Корзина</p>
+            </a>
+          </div>
+          <div class="col-xl-2 col-md-1 d-flex align-items-center">
+            <div class="account d-flex align-items-center">
+              <a href="#"
+                ><img src="./public/images/UserMenuItem.png" alt=""
+              /></a>
+            </div>
+            <div class="account-md">
+              <a href="#"><img src="./public/images/avatar.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav> -->
+    <!-- <div class="hero">
+      <div class="container-fluid"></div>
+    </div> -->
+    <!-- =============================================== Aksiya -->
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="titlecha">
+            <h2>Акции</h2>
+            <a href="#"
+              >Все акции <img src="./public/svg/right-a.svg" alt=""
+            /></a>
+          </div>
+        </div>
+
+        <div class="col-xl-12">
+          <div class="row">
+            <div class="allCards">
+              <div class="col-xl-3 col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#"
+                      ><img class="i-b" src="./public/images/likee.png" alt=""
+                    /></a>
+                    <img class="jpg" src="./public/images/image.png" alt="" />
+                    <img class="i-t" src="./public/images/notice.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <div class="price d-flex justify-content-between">
+                      <div class="price1">
+                        <p class="active">44,50 ₽</p>
+                        <span class="l">С картой</span>
+                      </div>
+                      <div class="price1">
+                        <p>50,50 ₽</p>
+                        <span class="r">Обычная</span>
+                      </div>
+                    </div>
+
+                    <div class="comment">
+                      <p>Г/Ц Блинчики с мясом вес, Россия</p>
+
+                      <div class="stars">
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="toBasket">
+                      <button class="basket">В корзину</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#"
+                      ><img class="i-b" src="./public/images/likee.png" alt=""
+                    /></a>
+                    <img class="jpg" src="./public/images/milk.png" alt="" />
+                    <img class="i-t" src="./public/images/notice.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <div class="price d-flex justify-content-between">
+                      <div class="price1">
+                        <p class="active">44,50 ₽</p>
+                        <span class="l">С картой</span>
+                      </div>
+                      <div class="price1">
+                        <p>50,50 ₽</p>
+                        <span class="r">Обычная</span>
+                      </div>
+                    </div>
+
+                    <div class="comment">
+                      <p>Г/Ц Блинчики с мясом вес, Россия</p>
+
+                      <div class="stars">
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="toBasket">
+                      <button class="basket">В корзину</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#"
+                      ><img class="i-b" src="./public/images/likee.png" alt=""
+                    /></a>
+                    <img class="jpg" src="./public/images/sausage.png" alt="" />
+                    <img class="i-t" src="./public/images/notice.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <div class="price d-flex justify-content-between">
+                      <div class="price1">
+                        <p class="active">44,50 ₽</p>
+                        <span class="l">С картой</span>
+                      </div>
+                      <div class="price1">
+                        <p>50,50 ₽</p>
+                        <span class="r">Обычная</span>
+                      </div>
+                    </div>
+
+                    <div class="comment">
+                      <p>Г/Ц Блинчики с мясом вес, Россия</p>
+
+                      <div class="stars">
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="toBasket">
+                      <button class="basket">В корзину</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-4 db">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#"
+                      ><img class="i-b" src="./public/images/likee.png" alt=""
+                    /></a>
+                    <img  src="./public/images/meet.png" alt="" />
+                    <img class="i-t" src="./public/images/notice.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <div class="price d-flex justify-content-between">
+                      <div class="price1">
+                        <p class="active">44,50 ₽</p>
+                        <span class="l">С картой</span>
+                      </div>
+                      <div class="price1">
+                        <p>50,50 ₽</p>
+                        <span class="r">Обычная</span>
+                      </div>
+                    </div>
+
+                    <div class="comment">
+                      <p>Г/Ц Блинчики с мясом вес, Россия</p>
+
+                      <div class="stars">
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="toBasket">
+                      <button class="basket">В корзину</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- =============================================== Yangilik -->
+    <!-- <div class="container s-nd">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="titlecha">
+            <h2>Новинки</h2>
+            <a href="#"
+              >Все акции <img src="./public/svg/right-a.svg" alt=""
+            /></a>
+          </div>
+        </div>
+
+        <div class="col-xl-12">
+          <div class="row">
+            <div class="allCards">
+              <div class="col-xl-3 col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#"
+                      ><img class="i-b" src="./public/images/likee.png" alt=""
+                    /></a>
+                    <img class="jpg" src="./public/images/image.png" alt="" />
+                    <img class="i-t" src="./public/images/notice.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <div class="price d-flex justify-content-between">
+                      <div class="price1">
+                        <p class="active">44,50 ₽</p>
+                        <span class="l">С картой</span>
+                      </div>
+                      <div class="price1">
+                        <p>50,50 ₽</p>
+                        <span class="r">Обычная</span>
+                      </div>
+                    </div>
+
+                    <div class="comment">
+                      <p>Г/Ц Блинчики с мясом вес, Россия</p>
+
+                      <div class="stars">
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="toBasket">
+                      <button class="basket">В корзину</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#"
+                      ><img class="i-b" src="./public/images/likee.png" alt=""
+                    /></a>
+                    <img class="jpg" src="./public/images/milk.png" alt="" />
+                    <img class="i-t" src="./public/images/notice.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <div class="price d-flex justify-content-between">
+                      <div class="price1">
+                        <p class="active">44,50 ₽</p>
+                        <span class="l">С картой</span>
+                      </div>
+                      <div class="price1">
+                        <p>50,50 ₽</p>
+                        <span class="r">Обычная</span>
+                      </div>
+                    </div>
+
+                    <div class="comment">
+                      <p>Г/Ц Блинчики с мясом вес, Россия</p>
+
+                      <div class="stars">
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="toBasket">
+                      <button class="basket">В корзину</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#"
+                      ><img class="i-b" src="./public/images/likee.png" alt=""
+                    /></a>
+                    <img class="jpg" src="./public/images/sausage.png" alt="" />
+                    <img class="i-t" src="./public/images/notice.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <div class="price d-flex justify-content-between">
+                      <div class="price1">
+                        <p class="active">44,50 ₽</p>
+                        <span class="l">С картой</span>
+                      </div>
+                      <div class="price1">
+                        <p>50,50 ₽</p>
+                        <span class="r">Обычная</span>
+                      </div>
+                    </div>
+
+                    <div class="comment">
+                      <p>Г/Ц Блинчики с мясом вес, Россия</p>
+
+                      <div class="stars">
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="toBasket">
+                      <button class="basket">В корзину</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-4 db">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#"
+                      ><img class="i-b" src="./public/images/likee.png" alt=""
+                    /></a>
+                    <img src="./public/images/meet.png" alt="" />
+                    <img class="i-t" src="./public/images/notice.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <div class="price d-flex justify-content-between">
+                      <div class="price1">
+                        <p class="active">44,50 ₽</p>
+                        <span class="l">С картой</span>
+                      </div>
+                      <div class="price1">
+                        <p>50,50 ₽</p>
+                        <span class="r">Обычная</span>
+                      </div>
+                    </div>
+
+                    <div class="comment">
+                      <p>Г/Ц Блинчики с мясом вес, Россия</p>
+
+                      <div class="stars">
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="toBasket">
+                      <button class="basket">В корзину</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- =============================================== Sotib olingan -->
+    <!-- <div class="container t-rd">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="titlecha">
+            <h2>Покупали раньше</h2>
+            <a href="#"
+              >Все акции <img src="./public/svg/right-a.svg" alt=""
+            /></a>
+          </div>
+        </div>
+
+        <div class="col-xl-12">
+          <div class="row">
+            <div class="allCards">
+              <div class="col-xl-3 col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#"
+                      ><img class="i-b" src="./public/images/likee.png" alt=""
+                    /></a>
+                    <img class="jpg" src="./public/images/image.png" alt="" />
+                    <img class="i-t" src="./public/images/notice.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <div class="price d-flex justify-content-between">
+                      <div class="price1">
+                        <p class="active">44,50 ₽</p>
+                        <span class="l">С картой</span>
+                      </div>
+                      <div class="price1">
+                        <p>50,50 ₽</p>
+                        <span class="r">Обычная</span>
+                      </div>
+                    </div>
+
+                    <div class="comment">
+                      <p>Г/Ц Блинчики с мясом вес, Россия</p>
+
+                      <div class="stars">
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="toBasket">
+                      <button class="basket">В корзину</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#"
+                      ><img class="i-b" src="./public/images/likee.png" alt=""
+                    /></a>
+                    <img class="jpg" src="./public/images/milk.png" alt="" />
+                    <img class="i-t" src="./public/images/notice.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <div class="price d-flex justify-content-between">
+                      <div class="price1">
+                        <p class="active">44,50 ₽</p>
+                        <span class="l">С картой</span>
+                      </div>
+                      <div class="price1">
+                        <p>50,50 ₽</p>
+                        <span class="r">Обычная</span>
+                      </div>
+                    </div>
+
+                    <div class="comment">
+                      <p>Г/Ц Блинчики с мясом вес, Россия</p>
+
+                      <div class="stars">
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="toBasket">
+                      <button class="basket">В корзину</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#"
+                      ><img class="i-b" src="./public/images/likee.png" alt=""
+                    /></a>
+                    <img class="jpg" src="./public/images/sausage.png" alt="" />
+                    <img class="i-t" src="./public/images/notice.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <div class="price d-flex justify-content-between">
+                      <div class="price1">
+                        <p class="active">44,50 ₽</p>
+                        <span class="l">С картой</span>
+                      </div>
+                      <div class="price1">
+                        <p>50,50 ₽</p>
+                        <span class="r">Обычная</span>
+                      </div>
+                    </div>
+
+                    <div class="comment">
+                      <p>Г/Ц Блинчики с мясом вес, Россия</p>
+
+                      <div class="stars">
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="toBasket">
+                      <button class="basket">В корзину</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-4 db">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#"
+                      ><img class="i-b" src="./public/images/likee.png" alt=""
+                    /></a>
+                    <img  src="./public/images/meet.png" alt="" />
+                    <img class="i-t" src="./public/images/notice.png" alt="" />
+                  </div>
+                  <div class="card-info">
+                    <div class="price d-flex justify-content-between">
+                      <div class="price1">
+                        <p class="active">44,50 ₽</p>
+                        <span class="l">С картой</span>
+                      </div>
+                      <div class="price1">
+                        <p>50,50 ₽</p>
+                        <span class="r">Обычная</span>
+                      </div>
+                    </div>
+
+                    <div class="comment">
+                      <p>Г/Ц Блинчики с мясом вес, Россия</p>
+
+                      <div class="stars">
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                        <img src="./public/svg/star.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <div class="toBasket">
+                      <button class="basket">В корзину</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="container f-th">
+      <div class="row">
+        <h2 class="bnr-ttl">Специальные предложения</h2>
+
+        <div class="col-xl-12 d-flex justify-content-between">
+          <div class="col-xl-6">
+            <img class="r-l" src="./public/images/banner-hover.png" alt="" />
+          </div>
+          <div class="col-xl-6">
+            <img class="r-i" src="./public/images/banner.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="container f-th">
+      <div class="row">
+        <h2 class="bnr-ttl">Наши магазины</h2>
+        <div class="col-xl-12">
+          <div class="btns">
+            <button class="btn-catalog">п.Щельяюр</button>
+            <button class="btn-catalog">д.Вертеп</button>
+            <button class="btn-catalog">с.Краснобор</button>
+            <button class="btn-catalog">д.Диюр</button>
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12071.586702002425!2d69.59002139979441!3d40.852192264313935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1654215481124!5m2!1sru!2s"
+            width="1200"
+            height="354"
+            style="border: 0; margin-top: 30px; transform: translateX(40px)"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="map"
+          ></iframe>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="container git f-th">
+      <div class="row">
+        <h2 class="bnr-ttl">Статьи</h2>
+        <div class="col-xl-12">
+          <div class="row content justify-content-between">
+            <div class="col-xl-3 col-md-3">
+              <div class="card-nd">
+                <div class="card-img-nd">
+                  <img src="./public/images/mask.jpg" alt="" />
+                </div>
+                <div class="card-info-nd">
+                  <span>05.03.2021</span>
+                  <h3>
+                    Режим использования масок и перчаток на территории магазинов
+                  </h3>
+                  <p>
+                    Подробная информация о режимах использования масок и
+                    перчаток на территории магазинов "ЛЕНТА". Информация
+                    обновляется каждый будний день.
+                  </p>
+                  <button>Подробнее</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-3">
+              <div class="card-nd">
+                <div class="card-img-nd">
+                  <img src="./public/images/gul.jpg" alt="" />
+                </div>
+                <div class="card-info-nd">
+                  <span>05.03.2021</span>
+                  <h3>
+                    Режим использования масок и перчаток на территории магазинов
+                  </h3>
+                  <p>
+                    Подробная информация о режимах использования масок и
+                    перчаток на территории магазинов "ЛЕНТА". Информация
+                    обновляется каждый будний день.
+                  </p>
+                  <button>Подробнее</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-3">
+              <div class="card-nd">
+                <div class="card-img-nd">
+                  <img src="./public/images/fruits.jpg" alt="" />
+                </div>
+                <div class="card-info-nd">
+                  <span>05.03.2021</span>
+                  <h3>
+                    Режим использования масок и перчаток на территории магазинов
+                  </h3>
+                  <p>
+                    Подробная информация о режимах использования масок и
+                    перчаток на территории магазинов "ЛЕНТА". Информация
+                    обновляется каждый будний день.
+                  </p>
+                  <button>Подробнее</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="row">
+              <div class="col-xl-1">
+                <a href="#"><img class="logo" src="./public/svg/f-logo.svg" alt="" /></a>
+              </div>
+              <div class="col-xl-7">
+                <ul>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Контакты</a></li>
+                  <li><a href="#">Вакансии</a></li>
+                  <li><a href="#">Статьи</a></li>
+                  <li>
+                    <a href="#">Политика обработки персональных данных</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-xl-2">
+                <div class="smm d-flex justify-content-between">
+                  <a href="#"><img src="./public/svg/insta.svg" alt="" /></a>
+                  <a href="#"><img src="./public/svg/vk.svg" alt="" /></a>
+                  <a href="#"><img src="./public/svg/facebook.svg" alt="" /></a>
+                  <a href="#"><img src="./public/svg/ok.svg" alt="" /></a>
+                </div>
+              </div>
+              <div class="col-xl-2">
+                <div class="call-center">
+                  <a href="#"
+                    ><img src="./public/svg/phone.svg" alt="" /> 8 800 777 33
+                    33</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer> -->
+
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
